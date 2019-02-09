@@ -3,8 +3,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.acar.crud.MainActivity">
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        android:id="@+id/btSalvar"
+        android:icon="@android:drawable/ic_input_add"
+        android:orderInCategory="101"
+        android:title="@string/btSalvar"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/btTelaConsulta"
+        android:icon="@android:drawable/ic_menu_help"
+        android:orderInCategory="102"
+        android:title="Consulta"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/btExcluir"
+        android:icon="@android:drawable/ic_input_delete"
+        android:orderInCategory="103"
+        android:title="@string/btSalvar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/configuracao"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:orderInCategory="104"
+        android:title="@string/configuracao"
+        android:visible="true"
+        app:showAsAction="always" />
 </menu>

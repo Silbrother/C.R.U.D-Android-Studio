@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "607083240081",
-    "firebase_url": "https://crud-72793.firebaseio.com",
-    "project_id": "crud-72793",
-    "storage_bucket": "crud-72793.appspot.com"
+    "project_number": "982938930679",
+    "firebase_url": "https://crud-d13af.firebaseio.com",
+    "project_id": "crud-d13af",
+    "storage_bucket": "crud-d13af.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:607083240081:android:72857b78ac1acffa",
+        "mobilesdk_app_id": "1:982938930679:android:72857b78ac1acffa",
         "android_client_info": {
           "package_name": "com.acar.crud"
         }
       },
       "oauth_client": [
         {
-          "client_id": "607083240081-0dqv2c8u35drce4sr2l8n6869rckgbn4.apps.googleusercontent.com",
+          "client_id": "982938930679-9g4ltntojksp6ue6nsnqvsobtql9egf4.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.acar.crud",
@@ -23,13 +23,13 @@
           }
         },
         {
-          "client_id": "607083240081-149f96pjdclomh5tkjid47svb2c2dgr7.apps.googleusercontent.com",
+          "client_id": "982938930679-ku520f87b1gjuhops7v6pha5f1q34o3r.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAv9NwnwHP4deTOrM2KwZG6AdWuZJoQzyA"
+          "current_key": "AIzaSyA8ozREehQtfolgWX0HNPbqfcNwSKJ70uk"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "607083240081-149f96pjdclomh5tkjid47svb2c2dgr7.apps.googleusercontent.com",
+              "client_id": "982938930679-ku520f87b1gjuhops7v6pha5f1q34o3r.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -1,13 +1,16 @@
 <resources>
+
     <string name="app_name">CRUD</string>
-    <string name="action_settings">Settings</string>
-
-
-    <string name="textEmail">E-mail</string>
+    <string name="configuracao">Configurações</string>
+    <!---Cadastro-->
     <string name="textNome">Nome</string>
- <!---botoes-->
+    <string name="textTelefone">Telefone</string>
+    <string name="textEndereco">Endereço</string>
+    <string name="textEmail">E-mail</string>
+    <!---botoes-->
     <string name="btSalvar">SALVAR</string>
     <string name="btExcluir">EXCLUIR</string>
     <string name="btEditar">EDITAR</string>
+    <string name="title_activity_consulta">Consulta</string>
 
 </resources>

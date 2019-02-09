@@ -8,13 +8,28 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ListView;
+import android.widget.TextView;
+
+import com.google.firebase.analytics.FirebaseAnalytics;
+
+import java.sql.DatabaseMetaData;
 
 public class MainActivity extends AppCompatActivity {
+
+    EditText editNome, editEmail;
+    ListView lista;
+
+    FirebaseAnalytics firebaseAnalytics;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        editNome = (EditText) findViewById(R.id.editNome);
+        editEmail = (EditText) findViewById(R.id.editEmail);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -43,8 +58,9 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        // se clicar chama a tela de consulta
+        if (id == R.id.btTelaConsulta) {
+            setContentView(R.layout.fragment_item_list);
         }
 
         return super.onOptionsItemSelected(item);
