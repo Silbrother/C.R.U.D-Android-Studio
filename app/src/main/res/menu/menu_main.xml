@@ -11,23 +11,30 @@
         app:showAsAction="always" />
 
     <item
-        android:id="@+id/btTelaConsulta"
-        android:icon="@android:drawable/ic_menu_help"
+        android:id="@+id/btConsulta"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
         android:orderInCategory="102"
-        android:title="Consulta"
+        android:title="@string/btConsulta"
         android:visible="true"
         app:showAsAction="always" />
 
     <item
         android:id="@+id/btExcluir"
-        android:icon="@android:drawable/ic_input_delete"
+        android:icon="@android:drawable/ic_menu_delete"
         android:orderInCategory="103"
         android:title="@string/btSalvar"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/btEditar"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:orderInCategory="104"
+        android:title="@string/btEditar"
         app:showAsAction="always" />
     <item
         android:id="@+id/configuracao"
         android:icon="@android:drawable/ic_menu_manage"
-        android:orderInCategory="104"
+        android:orderInCategory="105"
         android:title="@string/configuracao"
         android:visible="true"
         app:showAsAction="always" />

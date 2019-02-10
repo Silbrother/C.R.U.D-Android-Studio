@@ -11,6 +11,8 @@
     <string name="btSalvar">SALVAR</string>
     <string name="btExcluir">EXCLUIR</string>
     <string name="btEditar">EDITAR</string>
+    <string name="btConsulta">Consultar</string>
     <string name="title_activity_consulta">Consulta</string>
-
+    <!--lista de pessoas-->
+    <string name="listaV_dados">Lista de Pessoas</string>
 </resources>
