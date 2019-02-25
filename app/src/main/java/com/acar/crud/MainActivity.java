@@ -1,6 +1,7 @@
 package com.acar.crud;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
@@ -159,7 +160,9 @@ public class MainActivity extends AppCompatActivity {
             limparCampos();
 
         }else if (id == R.id.btConsulta) {
-            setContentView(R.layout.fragment_item_list);
+            setContentView(R.layout.activity_consulta);
+            Intent i = new Intent(MainActivity.this,Consulta.class);
+            startActivity(i);
         }return true;
     }
 
